@@ -19,7 +19,7 @@
       }
       @include responsive('mobile') {
         input {
-          width: 135px;
+          width: 145px;
         }
       }
       i {
@@ -27,6 +27,11 @@
         &:hover {
           cursor: pointer;
           color: $lightGray;
+        }
+      }
+      @include responsive('mobile') {
+        i {
+          display: none;
         }
       }
     }
